@@ -136,7 +136,7 @@ function renderFooter() {
           <ul class="footer-links">
             <li><a href="tel:+919495768129">+91 94957 68129</a></li>
             <li><a href="tel:+919995588169">+91 99955 88169</a></li>
-            <li><a href="mailto:farowin.travel@gmail.com">farowin.travel@gmail.com</a></li>
+            <li><a href="mailto:farowin.tours.and.travels@gmail.com">farowin.tours.and.travels@gmail.com</a></li>
             <li style="color:var(--text-light);font-size:0.85rem;">Agatti Island, Lakshadweep</li>
           </ul>
         </div>
@@ -146,7 +146,7 @@ function renderFooter() {
         <div class="footer-socials">
           <a class="social-btn" href="https://www.instagram.com/farowin.tours_travels" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
           <a class="social-btn" href="https://wa.me/919495768129" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
-          <a class="social-btn" href="mailto:farowin.travel@gmail.com" aria-label="Email">✉</a>
+          <a class="social-btn" href="mailto:farowin.tours.and.travels@gmail.com" aria-label="Email">✉</a>
         </div>
       </div>
     </footer>
