@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://acoyatravels.com/sitemap.xml
+Sitemap: https://farowintravels.com/sitemap.xml
