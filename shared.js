@@ -17,7 +17,9 @@ function renderNav(activePage) {
 
   document.getElementById('nav-placeholder').innerHTML = `
     <nav>
-      <a href="index.html" class="nav-logo">FAROWIN<span> TOURS & TRAVELS</span></a>
+      <a href="index.html" class="nav-logo" aria-label="FAROWIN Tours & Travels">
+        <img src="assets/logos/farowin-wordmark-1.png" alt="FAROWIN" class="nav-logo-img" width="160" height="64">
+      </a>
       <ul class="nav-links">${links}</ul>
       <a href="contact.html" class="nav-cta">Book Now</a>
       <div class="hamburger" onclick="toggleMobile()">
@@ -104,7 +106,10 @@ function renderFooter() {
     <footer>
       <div class="footer-grid">
         <div>
-          <div class="footer-brand">FAROWIN TOURS & TRAVELS</div>
+          <div class="footer-brand">
+            <img src="assets/logos/farowin-seal-circle.png" alt="" class="footer-seal" width="48" height="48">
+            <span>FAROWIN TOURS & TRAVELS</span>
+          </div>
           <p class="footer-desc">Crafting unforgettable travel experiences from the shores of Lakshadweep to the world's finest destinations.</p>
         </div>
         <div>
