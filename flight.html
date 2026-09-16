@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ACOYA — Flight Booking</title>
+<title>FAROWIN — Flight Booking</title>
 <link rel="stylesheet" href="style.css">
 <style>
   .flight-wrap { max-width: 850px; margin: 3rem auto 0; }
@@ -408,7 +408,7 @@
     var payload = {
       access_key: WEB3FORMS_KEY,
       subject: 'New Flight Booking: ' + from + ' to ' + to + ' - ' + name,
-      from_name: 'ACOYA Flight Booking',
+      from_name: 'FAROWIN Flight Booking',
       replyto: email,
       'Customer Name': name,
       'Phone Number': phone,
@@ -422,7 +422,7 @@
       'Travel Class': travelClass,
       'Preferred Airline': airline,
       'Special Requirements': special,
-      'Submitted via': 'acoyatravels.com/flight'
+      'Submitted via': 'farowintravels.com/flight'
     };
 
     fetch('https://api.web3forms.com/submit', {
