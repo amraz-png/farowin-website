@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ACOYA — Ship & Cruise Booking</title>
+<title>FAROWIN — Ship & Cruise Booking</title>
+<link rel="icon" type="image/png" href="assets/logos/farowin-seal-circle.png">
+<link rel="apple-touch-icon" href="assets/logos/farowin-seal-square.png">
 <link rel="stylesheet" href="style.css">
 <style>
   .cruise-wrap { max-width: 850px; margin: 3rem auto 0; }
@@ -124,7 +126,7 @@
   <div class="page-hero-content">
     <div class="page-tag">Book</div>
     <h1 class="page-title">Ship & Cruise <em>Booking</em></h1>
-    <p class="page-desc">From Lakshadweep island-hopping to luxury Mediterranean cruises — sail the world with ACOYA.</p>
+    <p class="page-desc">From Lakshadweep island-hopping to luxury Mediterranean cruises — sail the world with FAROWIN.</p>
   </div>
 </div>
 
@@ -407,7 +409,7 @@
     var payload = {
       access_key: WEB3FORMS_KEY,
       subject: 'New Cruise Booking: ' + cruise + ' - ' + name,
-      from_name: 'ACOYA Cruise Booking',
+      from_name: 'FAROWIN Cruise Booking',
       replyto: email,
       'Customer Name': name,
       'Phone Number': phone,
@@ -417,7 +419,7 @@
       'Number of Passengers': pax,
       'Cabin Type': cabin,
       'Special Requirements': special,
-      'Submitted via': 'acoyatravels.com/ship'
+      'Submitted via': 'farowintravels.com/ship'
     };
 
     fetch('https://api.web3forms.com/submit', {

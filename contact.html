@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ACOYA — Contact Us</title>
+<title>FAROWIN — Contact Us</title>
+<link rel="icon" type="image/png" href="assets/logos/farowin-seal-circle.png">
+<link rel="apple-touch-icon" href="assets/logos/farowin-seal-square.png">
 <link rel="stylesheet" href="style.css">
 <style>
   .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 5rem; max-width: 1200px; margin: 3rem auto 0; align-items: start; }
@@ -264,7 +266,7 @@
         <div>
           <div class="contact-label">Office Address</div>
           <div class="contact-val">
-            ACOYA Tours & Travels<br>
+            FAROWIN Tours & Travels<br>
             Agatti Island, Lakshadweep<br>
             Union Territory, India
           </div>
@@ -285,7 +287,7 @@
         <div>
           <div class="contact-label">Email Address</div>
           <div class="contact-val">
-            <a href="mailto:acoya.travel@gmail.com">acoya.travel@gmail.com</a>
+            <a href="mailto:farowin.tours.and.travels@gmail.com">farowin.tours.and.travels@gmail.com</a>
           </div>
         </div>
       </div>
@@ -302,7 +304,7 @@
         <div style="flex:1;">
           <div class="contact-label">Follow Us</div>
           <div class="social-row">
-            <a href="https://www.instagram.com/acoya.tours_travels" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">📷</a>
+            <a href="https://www.instagram.com/farowin.tours_travels" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">📷</a>
             <a href="https://wa.me/919495768129" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp">💬</a>
           </div>
         </div>
@@ -442,7 +444,7 @@
         <div class="success-box">
           <div class="success-icon">✓</div>
           <div class="success-title">Message <em>Received!</em></div>
-          <div class="success-msg">Thank you for reaching out to ACOYA Tours & Travels. We've received your enquiry and our team will get back to you within a few hours.</div>
+          <div class="success-msg">Thank you for reaching out to FAROWIN Tours & Travels. We've received your enquiry and our team will get back to you within a few hours.</div>
           <div class="success-info">📧 A confirmation has been sent to our team. We'll contact you soon!</div>
           <button class="btn-next" style="max-width:220px;margin:0 auto;" onclick="resetForm()">Send Another Message</button>
         </div>
@@ -704,7 +706,7 @@
     var payload = {
       access_key: WEB3FORMS_KEY,
       subject: 'New Enquiry: ' + state.destination + ' - ' + state.name,
-      from_name: 'ACOYA Website Enquiry',
+      from_name: 'FAROWIN Website Enquiry',
       replyto: state.email,
       'Customer Name': state.name,
       'Phone Number': state.phone,
@@ -713,7 +715,7 @@
       'Travel Date': state.date || 'Not specified',
       'Number of Travelers': state.travelers || 'Not specified',
       'Message': state.message,
-      'Submitted via': 'acoyatravels.com'
+      'Submitted via': 'farowintravels.com'
     };
 
     fetch('https://api.web3forms.com/submit', {
