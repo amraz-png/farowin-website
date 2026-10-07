@@ -3,24 +3,24 @@
 
 [[redirects]]
   from = "https://acoyatravels.com/*"
-  to = "https://farowintravels.com/:splat"
+  to = "https://farowin.in/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://www.acoyatravels.com/*"
-  to = "https://farowintravels.com/:splat"
+  to = "https://farowin.in/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "http://acoyatravels.com/*"
-  to = "https://farowintravels.com/:splat"
+  to = "https://farowin.in/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "http://www.acoyatravels.com/*"
-  to = "https://farowintravels.com/:splat"
+  to = "https://farowin.in/:splat"
   status = 301
   force = true
