@@ -17,7 +17,7 @@ function renderNav(activePage) {
 
   document.getElementById('nav-placeholder').innerHTML = `
     <nav>
-      <a href="index.html" class="nav-logo" aria-label="FAROWIN Tours & Travels">
+      <a href="index.html" class="nav-logo" aria-label="FAROWIN Travels">
         <img src="assets/logos/farowin-wordmark-1.png" alt="FAROWIN" class="nav-logo-img" width="160" height="64">
       </a>
       <ul class="nav-links">${links}</ul>
@@ -108,7 +108,7 @@ function renderFooter() {
         <div>
           <div class="footer-brand">
             <img src="assets/logos/farowin-seal-circle.png" alt="" class="footer-seal" width="48" height="48">
-            <span>FAROWIN TOURS & TRAVELS</span>
+            <span>FAROWIN TRAVELS</span>
           </div>
           <p class="footer-desc">Crafting unforgettable travel experiences from the shores of Lakshadweep to the world's finest destinations.</p>
         </div>
@@ -142,7 +142,7 @@ function renderFooter() {
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="footer-copy">© 2025 FAROWIN Tours & Travels LLP. All rights reserved.</div>
+        <div class="footer-copy">© 2025 FAROWIN Travels LLP. All rights reserved.</div>
         <div class="footer-socials">
           <a class="social-btn" href="https://www.instagram.com/farowin.tours_travels" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
           <a class="social-btn" href="https://wa.me/919495768129" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
