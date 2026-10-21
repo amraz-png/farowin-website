@@ -5,6 +5,7 @@ function renderNav(activePage) {
     { href: 'packages.html', label: 'Packages' },
     { href: 'flight.html', label: 'Flights' },
     { href: 'ship.html', label: 'Cruises' },
+    { href: 'https://portal.farowin.in/?tab=act', label: 'Water Sports' },
     { href: 'gallery.html', label: 'Gallery' },
     { href: 'contact.html', label: 'Contact' },
   ];
