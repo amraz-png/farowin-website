@@ -201,3 +201,27 @@ footer {
   .footer-bottom { flex-direction: column; text-align: center; }
   .footer-brand { font-size: 1.15rem; }
 }
+
+/* ===== Farowin Portal connect ===== */
+.portal-sec{background:linear-gradient(180deg,var(--navy) 0%,var(--navy-mid) 100%);padding:4.5rem 5%}
+.portal-wrap{max-width:1200px;margin:0 auto}
+.portal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem;margin-top:2rem}
+.portal-card{position:relative;display:block;text-decoration:none;color:var(--cream);padding:2rem 1.7rem;border:1px solid rgba(197,160,89,.25);border-radius:14px;overflow:hidden;
+  background:radial-gradient(420px 200px at 100% 0%,rgba(197,160,89,.16),transparent 60%),linear-gradient(145deg,#0E2440,#123456);transition:transform .3s,border-color .3s,box-shadow .3s}
+.portal-card.sea{background:radial-gradient(420px 200px at 100% 0%,rgba(120,220,230,.16),transparent 60%),linear-gradient(145deg,#0E2440,#0F5263)}
+.portal-card:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 22px 50px -18px rgba(0,0,0,.6)}
+.portal-card .pc-ic{font-size:2.4rem;line-height:1}
+.portal-card .pc-live{position:absolute;top:1.2rem;right:1.2rem;font-size:.66rem;letter-spacing:2px;text-transform:uppercase;color:#4ADE80;border:1px solid rgba(74,222,128,.4);border-radius:99px;padding:.25rem .6rem}
+.portal-card h3{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:600;margin:1rem 0 .5rem;color:#FBF4E2}
+.portal-card p{color:var(--text-light);font-size:.92rem;line-height:1.6}
+.portal-card .pc-go{display:inline-block;margin-top:1.3rem;color:var(--gold);font-size:.8rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase}
+.portal-banner{max-width:1000px;margin:0 auto 2.5rem;padding:1.8rem 2rem;border:1px solid rgba(197,160,89,.4);border-radius:14px;
+  background:radial-gradient(500px 220px at 100% 0%,rgba(197,160,89,.18),transparent 60%),linear-gradient(135deg,#0E2440,#14365A);display:flex;gap:1.5rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.portal-banner .pb-tag{font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+.portal-banner h3{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:600;color:#FBF4E2;margin:.35rem 0}
+.portal-banner p{color:var(--text-light);font-size:.92rem;max-width:520px;line-height:1.6}
+.portal-banner .pb-routes{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.portal-banner .pb-routes a{color:var(--cream);text-decoration:none;font-size:.82rem;border:1px solid rgba(197,160,89,.35);border-radius:99px;padding:.4rem .9rem;transition:background .3s}
+.portal-banner .pb-routes a:hover{background:rgba(197,160,89,.15)}
+.portal-banner .btn-primary{white-space:nowrap}
+@media(max-width:900px){.portal-grid{grid-template-columns:1fr}.portal-sec{padding:3.5rem 5%}.portal-banner{padding:1.5rem}}
