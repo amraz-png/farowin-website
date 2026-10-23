@@ -1,6 +1,0 @@
-# Old Acoya hostname → Farowin (requires BOTH domains attached to this site)
-# Netlify + Cloudflare Pages both honor _redirects with absolute host rules.
-https://acoyatravels.com/*    https://farowin.in/:splat  301
-https://www.acoyatravels.com/* https://farowin.in/:splat  301
-http://acoyatravels.com/*     https://farowin.in/:splat  301
-http://www.acoyatravels.com/*  https://farowin.in/:splat  301
