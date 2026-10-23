@@ -1,30 +1,3 @@
-# Netlify: host-based redirect when both custom domains are on this site.
-# Cloudflare Pages uses root `_redirects` (same rules). Dashboard steps: docs/farowin-go-live.md in Project store.
-
-[[redirects]]
-  from = "https://acoyatravels.com/*"
-  to = "https://farowin.in/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.acoyatravels.com/*"
-  to = "https://farowin.in/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://acoyatravels.com/*"
-  to = "https://farowin.in/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.acoyatravels.com/*"
-  to = "https://farowin.in/:splat"
-  status = 301
-  force = true
-
 [[headers]]
   for = "/*"
   [headers.values]
