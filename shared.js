@@ -139,15 +139,17 @@ function renderFooter() {
             <li><a href="tel:+919995588169">+91 99955 88169</a></li>
             <li><a href="mailto:farowin.tours.and.travels@gmail.com">farowin.tours.and.travels@gmail.com</a></li>
             <li style="color:var(--text-light);font-size:0.85rem;">Agatti Island, Lakshadweep</li>
+            <li><a href="https://g.page/r/CSRgnT2low32EBM/review" target="_blank" rel="noopener" style="display:inline-block;margin-top:6px;padding:7px 14px;border:1px solid var(--gold,#C4A35A);border-radius:999px;font-weight:600;">⭐ Review us on Google</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="footer-copy">© 2025 FAROWIN Travels LLP. All rights reserved.</div>
+        <div class="footer-copy">© ${new Date().getFullYear()} FAROWIN VENTURES LLP. All rights reserved.</div>
         <div class="footer-socials">
           <a class="social-btn" href="https://www.instagram.com/farowin.tours_travels" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
           <a class="social-btn" href="https://wa.me/919495768129" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
           <a class="social-btn" href="mailto:farowin.tours.and.travels@gmail.com" aria-label="Email">✉</a>
+          <a class="social-btn" href="https://g.page/r/CSRgnT2low32EBM/review" target="_blank" rel="noopener" aria-label="Google reviews">★</a>
         </div>
       </div>
     </footer>
